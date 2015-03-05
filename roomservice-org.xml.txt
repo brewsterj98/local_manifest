@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+  <project name="CyanogenMod/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="cm-12.0" />
+  <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="github" revision="cm-12.0" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.0" />
+  <project name="CyanogenMod/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" />
+  <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/default" remote="github" revision="cm-12.0-caf-8974" />
+  <project name="TheMuppets/proprietary_vendor_oneplus.git" path="vendor/oneplus" remote="github" revision="cm-12.0" />
+  <project name="TheMuppets/proprietary_vendor_oppo.git" path="vendor/oppo" remote="github" revision="cm-12.0" />
+  <project name="android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="cm" revision="cm-12.0" />
+  <project name="sooti/android_device_lge_d855" path="device/lge/d855" remote="github" revision="cm-12.0" />
+  <project name="sooti/android_kernel_lge_g3" path="kernel/lge/g3" remote="github" revision="cm-12.0" />
+  <project name="TeamBliss-Devices/android_device_lge_g3-common" path="device/lge/g3-common" remote="github" revision="lp5.0" />
+</manifest>
