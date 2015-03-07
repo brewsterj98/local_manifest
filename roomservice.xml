@@ -47,10 +47,11 @@
   <project name="TheMuppets/proprietary_vendor_widevine" path="vendor/widevine" remote="github" revision="cm-12.0" />
 
   <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/default" remote="github" revision="cm-12.0-caf-8974" />
-  <project name="CyanogenMod/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="cm-12.0" />
+  <!-- <project name="CyanogenMod/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="cm-12.0" /> -->
+  <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="github" revision="cm-12.0" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.0" />
   <project name="CyanogenMod/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" />
-  <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="github" revision="cm-12.0" />
+  <project name="android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="TeamBliss-Devices" revision="lp5.0" />
   <!--
   <project name="TeamBliss-Devices/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="lp5.0" />
   <project name="TeamBliss-Devices/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="lp5.0" />
@@ -79,7 +80,7 @@
 
   <!-- nexus 10/manta repos -->
   <!-- <project name="ArchiDroid/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.0" /> -->
-  <project name="ArchiDroid/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-12.0" />
+  <!-- <project name="ArchiDroid/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-12.0" /> -->
   <project name="TeamBliss-Devices/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="lp5.0" />
   <project name="Khaon/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="cm-12.0" />
   <project name="Khaon/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="khaon-new" />
@@ -91,25 +92,25 @@
   <project name="katinatez/android_art" path="art" remote="github" revision="cm-12.0" />
   <project name="katinatez/proprietary_vendor_oppo" path="../katinatez/vendor/oppo" remote="github" revision="cm-12.0" />
   <project name="katinatez/platform-prebuilts-gcc-linux-x86-host-x86_64-linux-glibc2.15-4.8x-glibc2.15-4.8"
-	   path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="github" revision="master" />
+   path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="github" revision="master" />
 
   <!-- SaberMod -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
   <project name="SaberMod/aarch64-linux-android-4.8"
-	   path="prebuilts/gcc/linux-x86/aarch64/linux-android-4.8" remote="github" revision="LTS" />
+   path="prebuilts/gcc/linux-x86/aarch64/linux-android-4.8" remote="github" revision="LTS" />
   <project name="SaberMod/aarch64-linux-android-4.9"
-	   path="prebuilts/gcc/linux-x86/aarch64/linux-android-4.9" remote="github" revision="master" />
+   path="prebuilts/gcc/linux-x86/aarch64/linux-android-4.9" remote="github" revision="master" />
 
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
   <remove-project name="arm-linux-androideabi-4.8" />  
   <project name="SaberMod/arm-androideabi-4.8"
-	   path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" remote="github" revision="LTS" />
+   path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" remote="github" revision="LTS" />
 
   <project name="frap129/x86_64-linux-glibc-2.20-4.8"
-	   path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" />
+   path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" />
   <!-- NO LONGER AVAILABLE!
   <project name="SaberMod/x86_64-linux-glibc-2.20-4.8"
-	   path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" />
+   path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" />
   -->
 </manifest>
