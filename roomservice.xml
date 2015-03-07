@@ -48,14 +48,11 @@
 
   <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/default" remote="github" revision="cm-12.0-caf-8974" />
   <!-- <project name="CyanogenMod/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="cm-12.0" /> -->
-  <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="github" revision="cm-12.0" />
+  <!-- <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="github" revision="cm-12.0" /> -->
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.0" />
   <project name="CyanogenMod/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" />
   <project name="android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="TeamBliss-Devices" revision="lp5.0" />
-  <!--
-  <project name="TeamBliss-Devices/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="lp5.0" />
-  <project name="TeamBliss-Devices/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="lp5.0" />
-  -->
+  <project name="android_device_oppo_common" path="device/oppo/msm8974-common" remote="TeamBliss-Devices" revision="lp5.0" />
 
   <!-- nvidia shield tablet repos -->
   <project name="TeamRegular/proprietary_vendor_nvidia" path="vendor/nvidia" remote="github" revision="cm-12.0" />
@@ -90,7 +87,7 @@
   <!-- Use katinatez' art to fix SM 4.9/4.8 builds -->
   <remove-project name="CyanogenMod/android_art" groups="pdk" />
   <project name="katinatez/android_art" path="art" remote="github" revision="cm-12.0" />
-  <project name="katinatez/proprietary_vendor_oppo" path="../katinatez/vendor/oppo" remote="github" revision="cm-12.0" />
+  <!-- <project name="katinatez/proprietary_vendor_oppo" path="../katinatez/vendor/oppo" remote="github" revision="cm-12.0" /> -->
   <project name="katinatez/platform-prebuilts-gcc-linux-x86-host-x86_64-linux-glibc2.15-4.8x-glibc2.15-4.8"
    path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="github" revision="master" />
 
