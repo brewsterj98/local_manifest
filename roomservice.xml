@@ -34,9 +34,11 @@
 
   <!-- Use my own build repository! :D -->
   <remove-project name="TeamBliss-LP/android_build" />
+  <remove-project name="TeamBliss-LP/android_vendor_bliss" />
   <!-- <remove-project name="CyanogenMod/android_device_oneplus_bacon" /> -->
   <project name="tobitege/android_build.git" path="build" remote="github" revision="dev" />
   <project name="tobitege/android_device_oneplus_bacon.git" path="device/oneplus/bacon" remote="github" revision="lp5.0" />
+  <project name="tobitege/android_vendor_bliss" path="vendor/bliss" remote="github" revision="dev" />
 
   <project name="TheMuppets/proprietary_vendor_oneplus.git" path="vendor/oneplus" remote="github" revision="cm-12.0" />
   <project name="TheMuppets/proprietary_vendor_oppo.git" path="vendor/oppo" remote="github" revision="cm-12.0" />
@@ -52,7 +54,7 @@
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.0" />
   <project name="CyanogenMod/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" />
   <project name="android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="TeamBliss-Devices" revision="lp5.0" />
-  <project name="android_device_oppo_common" path="device/oppo/msm8974-common" remote="TeamBliss-Devices" revision="lp5.0" />
+  <project name="android_device_oppo_common" path="device/oppo/common" remote="TeamBliss-Devices" revision="lp5.0" />
 
   <!-- nvidia shield tablet repos -->
   <project name="TeamRegular/proprietary_vendor_nvidia" path="vendor/nvidia" remote="github" revision="cm-12.0" />
@@ -99,15 +101,17 @@
   <project name="SaberMod/aarch64-linux-android-4.9"
    path="prebuilts/gcc/linux-x86/aarch64/linux-android-4.9" remote="github" revision="master" />
 
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
-  <remove-project name="arm-linux-androideabi-4.8" />  
+  <!-- <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" /> -->
+  <remove-project name="arm-linux-androideabi-4.8" />
   <project name="SaberMod/arm-androideabi-4.8"
    path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" remote="github" revision="LTS" />
 
   <project name="frap129/x86_64-linux-glibc-2.20-4.8"
    path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" />
-  <!-- NO LONGER AVAILABLE!
-  <project name="SaberMod/x86_64-linux-glibc-2.20-4.8"
-   path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" />
+  <!--
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-uber" name="UBERTC/arm-eabi-4.8" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="UBERTC/arm-eabi-4.9" remote="github" revision="master" />
   -->
+  <remove-project name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8-linaro" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="UBERTC/arm-linux-androideabi-4.8" remote="github" revision="master" />
 </manifest>
