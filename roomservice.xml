@@ -28,72 +28,32 @@
   <remove-project groups="pdk" name="device/generic/x86" path="device/generic/x86" remote="aosp" />
   <remove-project groups="pdk" name="device/generic/x86_64" path="device/generic/x86_64" remote="aosp" />
 
-  <remove-project name="TeamBliss-Devices/proprietary_vendor_samsung" />
-  <!-- <remove-project name="TeamBliss-Devices/proprietary_vendor_lge" /> -->
-  <remove-project name="RobbieL811/Sabermod" />
-  <remove-project name="TeamBliss-LP/android_build" />
+  <!-- <project name="frap129/x86_64-linux-glibc-2.20-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" /> -->
+  <!-- <project name="TeamBliss-Devices/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="lp5.1" /> -->
+  <project name="tobitege/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="lp5.1" />
+  <project name="android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="cm" revision="cm-12.1" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-12.1" />
+  <project name="android_device_oppo_common" path="device/oppo/common" remote="TeamBliss-Devices" revision="lp5.1" />
+  <project name="android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="TeamBliss-Devices" revision="lp5.1" />
 
-  <project name="tobitege/android_build.git" path="build" remote="github" revision="lp5.0" />
-  <project name="tobitege/android_device_oneplus_bacon.git" path="device/oneplus/bacon" remote="github" revision="lp5.0" />
-  <!--
-  <project name="TheMuppets/proprietary_vendor_oneplus.git" path="vendor/oneplus" remote="github" revision="cm-12.0" />
-  <project name="TheMuppets/proprietary_vendor_oppo.git" path="vendor/oppo" remote="github" revision="cm-12.0" />
-  <project name="TheMuppets/proprietary_vendor_lge.git" path="vendor/lge" remote="github" revision="cm-12.0" />
-  -->
-  <project name="TheMuppets/proprietary_vendor_audience" path="vendor/audience" remote="github" revision="cm-12.0" />
-  <project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="cm-12.0" />
-  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.0" />
-  <project name="TheMuppets/proprietary_vendor_widevine" path="vendor/widevine" remote="github" revision="cm-12.0" />
+  <project name="android_device_lge_d855" path="device/lge/d855" remote="TeamBliss-Devices" revision="lp5.1" />
+  <!-- <project name="android_kernel_lge_g3" path="kernel/lge/g3" remote="cm" revision="cm-12.1" /> -->
+  <project name="android_device_lge_qcom-common" path="device/lge/qcom-common" remote="TeamBliss-Devices" revision="lp5.0" />
+  <project name="android_device_lge_g3-common" path="device/lge/g3-common" remote="TeamBliss-Devices" revision="lp5.1" />
+  <project name="777jon/g3_kernel" path="kernel/lge/777jon" remote="github" revision="lp-release" />
 
-  <project name="android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="cm" />
-  <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" />
-  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio-caf/default" remote="cm" revision="cm-12.0-caf-8974" />
-  <project name="android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="TeamBliss-Devices" revision="lp5.0" />
-  <project name="android_device_oppo_common" path="device/oppo/common" remote="TeamBliss-Devices" revision="lp5.0" />
-
-  <project name="android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="TeamBliss-Devices" revision="lp5.0" />
-  <project name="android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="TeamBliss-Devices" revision="lp5.0" />
-
-  <!-- nvidia shield tablet repos -->
-  <project name="TeamRegular/proprietary_vendor_nvidia" path="vendor/nvidia" remote="github" revision="cm-12.0" />
-  <project name="TeamRegular/android_device_nvidia_wx_na_wf" path="device/nvidia/wx_na_wf" remote="github" revision="cm-12.0" />
-  <project name="TeamRegular/android_device_nvidia_shieldtablet" path="device/nvidia/shieldtablet" remote="github" revision="cm-12.0" />
-  <project name="TeamRegular/android_kernel_nvidia_shieldtablet" path="kernel/nvidia/shieldtablet" remote="github" revision="cm-12.0" />
-  <project name="Shaky156/Shield-Tablet-CPU2.5Ghz-GPU060Mhz-Overclock" path="kernel/nvidia/Shield-Tablet" remote="github" revision="master" />
-
-  <!-- LG -->
-  <project name="android_kernel_lge_g3" path="kernel/lge/g3" remote="cm" revision="cm-12.0" />
-  <project name="android_device_lge_d855" path="device/lge/d855" remote="TeamBliss-Devices" revision="lp5.0" />
-  <project name="android_device_lge_g3-common" path="device/lge/g3-common" remote="TeamBliss-Devices" revision="lp5.0" />
-
-  <!-- nexus 10/manta repos -->
-  <!-- <project name="ArchiDroid/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.0" /> -->
-  <!-- <project name="ArchiDroid/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-12.0" /> -->
-  <project name="TeamBliss-Devices/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="lp5.0" />
-  <project name="Khaon/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="cm-12.0" />
+  <!-- <remove-project name="TeamBliss-Devices/proprietary_vendor_samsung" /> -->
+  <remove-project name="TeamBliss-Devices/android_hardware_samsung" />
+  <project name="TeamBliss-Devices/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lp5.1" />
+  <project name="TeamBliss-Devices/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="lp5.1" />
+  <project name="TeamBliss-Devices/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="lp5.1" />
   <project name="Khaon/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="khaon-new" />
-  <project name="Khaon/vendor_khaon_misc" path="vendor/khaon_misc" remote="github" revision="master" />
-  <project name="DirtyUnicorns/android_packages_apps_Apollo" path="packages/apps/Apollo" revision="lollipop" />
+  <!-- <project name="Khaon/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="otipop" /> -->
+  <!-- <project name="Khaon/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="optipop" /> -->
+  <!-- <project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-12.1" /> -->
+  <!-- <project name="Khaon/vendor_khaon_misc" path="vendor/khaon_misc" remote="github" revision="master" /> -->
 
-  <!-- Use katinatez' art to fix SM 4.9/4.8 builds -->
-  <remove-project name="CyanogenMod/android_art" groups="pdk" />
-  <project name="katinatez/android_art" path="art" remote="github" revision="cm-12.0" />
+  <remove-project name="CyanogenMod/android_packages_apps_Email" />
+  <project path="packages/apps/Email" name="tobitege/android_packages_apps_Email" remote="github" revision="cm-12.1" />
 
-  <project name="katinatez/platform-prebuilts-gcc-linux-x86-host-x86_64-linux-glibc2.15-4.8x-glibc2.15-4.8"
-   path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="github" revision="master" />
-
-  <!-- SaberMod -->
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
-  <project name="SaberMod/aarch64-linux-android-4.8"
-      path="prebuilts/gcc/linux-x86/aarch64/linux-android-4.8" remote="github" revision="LTS" />
-  <project name="SaberMod/aarch64-linux-android-4.9"
-      path="prebuilts/gcc/linux-x86/aarch64/linux-android-4.9" remote="github" revision="master" />
-
-  <remove-project name="arm-linux-androideabi-4.8" />
-  <project name="SaberMod/arm-androideabi-4.8"
-      path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" remote="github" revision="LTS" />
-
-  <project name="frap129/x86_64-linux-glibc-2.20-4.8"
-      path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.20-4.8" remote="github" revision="master" />
 </manifest>
